@@ -414,6 +414,49 @@
             ]
         },
         {
+            "pakku_id": "AoJJXuKjo9EdCtvp",
+            "pakku_links": [
+                "l7XSBg8vKevSs2Hv"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "bocchud"
+            },
+            "name": {
+                "modrinth": "BoccHUD"
+            },
+            "id": {
+                "modrinth": "zfPoD7Tm"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "BoccHUD-0.3.1-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/zfPoD7Tm/versions/DunnJcDQ/BoccHUD-0.3.1-mc1.21.1.jar",
+                    "id": "DunnJcDQ",
+                    "parent_id": "zfPoD7Tm",
+                    "hashes": {
+                        "sha512": "804b18b3add7bb1eef85bd988beecce0405774e71f6594d6312094079b2ecedf14756a816914583670d252de3a1bde5bca9ac2fa530bb0fb96362d7e4891b245",
+                        "sha1": "01b8137c0fcc9fe9a86e289cdfce46b26ecfabf7"
+                    },
+                    "required_dependencies": [
+                        "SKI34J7B"
+                    ],
+                    "size": 624076,
+                    "date_published": "2025-04-21T11:53:52.563095Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "8i9IyqMfLwCvJn7Z",
             "type": "MOD",
             "side": "BOTH",
@@ -931,6 +974,43 @@
             ]
         },
         {
+            "pakku_id": "RALsMcMLdNkehXHm",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "construction-sticks"
+            },
+            "name": {
+                "modrinth": "Construction Sticks"
+            },
+            "id": {
+                "modrinth": "ooyjDLZt"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ConstructionSticks-1.21.1-1.1.7.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ooyjDLZt/versions/vsebNTys/ConstructionSticks-1.21.1-1.1.7.jar",
+                    "id": "vsebNTys",
+                    "parent_id": "ooyjDLZt",
+                    "hashes": {
+                        "sha512": "d013c3ef5899be90a16c529431bea0f9545d32355c2af437edbd0d9b3c4f7b544b910b0baee8fa1d41b0b5338f6ca8e84c993fcc70ddcf81420a9720706a2138",
+                        "sha1": "7850a45d6968227ad824ba5429490b8bdd71c555"
+                    },
+                    "required_dependencies": [],
+                    "size": 230993,
+                    "date_published": "2025-05-13T20:28:41.394503Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "xT7Y0oMDmTbTTgxB",
             "pakku_links": [
                 "bJeRHVE7QhoTMpH6"
@@ -1007,6 +1087,124 @@
                     "required_dependencies": [],
                     "size": 63981,
                     "date_published": "2024-09-14T12:38:45.647812Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "zH3sxKBZC6uQtxsK",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "corpse"
+            },
+            "name": {
+                "modrinth": "Corpse"
+            },
+            "id": {
+                "modrinth": "WrpuIfhw"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "corpse-neoforge-1.21.1-1.1.5.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/WrpuIfhw/versions/IxJeLN2e/corpse-neoforge-1.21.1-1.1.5.jar",
+                    "id": "IxJeLN2e",
+                    "parent_id": "WrpuIfhw",
+                    "hashes": {
+                        "sha512": "45b99f24a224d31b20258028b52ca0a29ca315a6fa1dc658e7d43f5be3d08426b77ff63c6683f7ece34d09759745009c406e31601bce415a73897d6f4a7d2322",
+                        "sha1": "6e94c176df2ddaa76651333daf5733ffb7bd5d27"
+                    },
+                    "required_dependencies": [],
+                    "size": 246394,
+                    "date_published": "2025-01-24T21:56:01.343706Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "jxLGOM4TfZy1BVlI",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "corpse-x-curios-api-compat"
+            },
+            "name": {
+                "modrinth": "Corpse x Curios API Compat"
+            },
+            "id": {
+                "modrinth": "pJGcKPh1"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "corpsecurioscompat-1.21.1-NeoForge-2.2.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/pJGcKPh1/versions/dMckkU0h/corpsecurioscompat-1.21.1-NeoForge-2.2.2.jar",
+                    "id": "dMckkU0h",
+                    "parent_id": "pJGcKPh1",
+                    "hashes": {
+                        "sha512": "43ef2fa1e2893fb3d9147d876f8bc86d925d75cf074a08812c7a466d88fefd7a9781923d398ef0d24f8162f61b1dbef291bc6246ae618a026ceb399da2ca1397",
+                        "sha1": "624995bf7f2c502f9c454c19665a6a6e20f86c72"
+                    },
+                    "required_dependencies": [],
+                    "size": 8276,
+                    "date_published": "2025-03-22T08:58:22.417237Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "2cYhhirJGmA8Rftw",
+            "pakku_links": [
+                "7l3GTULIj4ilFIwR"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "crafting-tweaks"
+            },
+            "name": {
+                "modrinth": "Crafting Tweaks"
+            },
+            "id": {
+                "modrinth": "DMu0oBKf"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "craftingtweaks-neoforge-1.21.1-21.1.5.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/DMu0oBKf/versions/uFQrAvJM/craftingtweaks-neoforge-1.21.1-21.1.5.jar",
+                    "id": "uFQrAvJM",
+                    "parent_id": "DMu0oBKf",
+                    "hashes": {
+                        "sha512": "8f3c6bca80d15fa2b64165d14f20da65ca0be38d1a779278668fcc4f9da982ed0fad60c5157d84f745c7e2e3c284659d731729c7ea8bac9746c407b7037eb8c4",
+                        "sha1": "7e9cc8175bbd4bd5ea7ce44921d779fb1cc8fa1f"
+                    },
+                    "required_dependencies": [
+                        "MBAkmtvl"
+                    ],
+                    "size": 248981,
+                    "date_published": "2024-12-25T21:09:51.442480Z"
                 }
             ]
         },
@@ -1417,6 +1615,44 @@
             ]
         },
         {
+            "pakku_id": "eg05mtdRxDn0ZHR0",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "distanthorizons"
+            },
+            "name": {
+                "modrinth": "Distant Horizons"
+            },
+            "id": {
+                "modrinth": "uCdwusMi"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "DistantHorizons-neoforge-fabric-2.3.2-b-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/jkSxZOJh/DistantHorizons-neoforge-fabric-2.3.2-b-1.21.1.jar",
+                    "id": "jkSxZOJh",
+                    "parent_id": "uCdwusMi",
+                    "hashes": {
+                        "sha512": "7dc7f295b8e132799520435c2de603c5ba1fe7b7d1c2de7a8c7106eba2d57dd2b46ac7559a7ebcd21790398472690fd3ad5ddeeec3c2648c54fae267f87b508b",
+                        "sha1": "4e68bdfaabe21b6c8841497fea48233be5ce3b39"
+                    },
+                    "required_dependencies": [],
+                    "size": 17943813,
+                    "date_published": "2025-04-05T15:07:24.053903Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "gIMEQcPjFF7tOdNF",
             "type": "MOD",
             "side": "BOTH",
@@ -1809,6 +2045,43 @@
             ]
         },
         {
+            "pakku_id": "7qeXasrzbeAD881w",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "extreme_sound_muffler"
+            },
+            "name": {
+                "modrinth": "Extreme sound muffler"
+            },
+            "id": {
+                "modrinth": "5IIKsxiL"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ExtremeSoundMuffler-3.49.2_NeoForge-1.21.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/5IIKsxiL/versions/vOXfLVlk/ExtremeSoundMuffler-3.49.2_NeoForge-1.21.jar",
+                    "id": "vOXfLVlk",
+                    "parent_id": "5IIKsxiL",
+                    "hashes": {
+                        "sha512": "98b1d6f2bdc90f965a40d931213b80f978819ffcb8e162dd6e75a5c0a6867481d2e44cb41f1580cf0c8fdf2d9207348f03ba7b5bca122b4eb23c8bb1fd0d8114",
+                        "sha1": "5aafa94be68c76350cfa05f8adff509e807be43b"
+                    },
+                    "required_dependencies": [],
+                    "size": 262653,
+                    "date_published": "2025-05-13T17:47:40.675724Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "DLwGrJU5DkC2osW0",
             "type": "MOD",
             "side": "CLIENT",
@@ -1884,6 +2157,49 @@
                     "required_dependencies": [],
                     "size": 104469,
                     "date_published": "2024-12-11T11:46:10.309224Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "v6RKsM5WClj84Xa3",
+            "pakku_links": [
+                "l7XSBg8vKevSs2Hv"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "forgematica"
+            },
+            "name": {
+                "modrinth": "Forgematica"
+            },
+            "id": {
+                "modrinth": "dCKRaeBC"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Forgematica-0.3.2-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/dCKRaeBC/versions/LvqGzfCo/Forgematica-0.3.2-mc1.21.1.jar",
+                    "id": "LvqGzfCo",
+                    "parent_id": "dCKRaeBC",
+                    "hashes": {
+                        "sha512": "f017211e0ff804b9fef131e405c335ec90e3ff049d09cb1b2f10ae7aa2a55e8490a82f656eb8fbff6366427ff36a73b1cac65fc1dfece7cf6bd7f67dfea82a45",
+                        "sha1": "8358193baeecc3bda1c8adbe38df3fd4d1939d85"
+                    },
+                    "required_dependencies": [
+                        "SKI34J7B"
+                    ],
+                    "size": 1389585,
+                    "date_published": "2025-06-01T04:20:11.150870Z"
                 }
             ]
         },
@@ -2037,6 +2353,45 @@
                     "required_dependencies": [],
                     "size": 213853,
                     "date_published": "2025-04-14T22:15:45.515971Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "vuWkfOvv9o6l9P8h",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "inventory-tweaks-refoxed"
+            },
+            "name": {
+                "modrinth": "Inventory Tweaks: ReFoxed"
+            },
+            "id": {
+                "modrinth": "uqnMI1kq"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "invtweaks-1.21.1-1.2.0.jar",
+                    "mc_versions": [
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/uqnMI1kq/versions/tcTciTmQ/invtweaks-1.21.1-1.2.0.jar",
+                    "id": "tcTciTmQ",
+                    "parent_id": "uqnMI1kq",
+                    "hashes": {
+                        "sha512": "a419544da8d943ccf17ed62f359fdbff04752735d370b18de3833a74277039e0313c8032e06462125b6b9b4e15b4eec057b680d302b465191ce51c13254bdeb2",
+                        "sha1": "f81426b87be821aba41da4483895760cf6248710"
+                    },
+                    "required_dependencies": [],
+                    "size": 74866,
+                    "date_published": "2024-11-26T18:15:13.783718Z"
                 }
             ]
         },
@@ -2634,6 +2989,44 @@
                     "required_dependencies": [],
                     "size": 560194,
                     "date_published": "2025-03-27T04:44:48.512606Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "l7XSBg8vKevSs2Hv",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "mafglib"
+            },
+            "name": {
+                "modrinth": "MaFgLib"
+            },
+            "id": {
+                "modrinth": "SKI34J7B"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "MaFgLib-0.3.3-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/SKI34J7B/versions/i6atsMOU/MaFgLib-0.3.3-mc1.21.1.jar",
+                    "id": "i6atsMOU",
+                    "parent_id": "SKI34J7B",
+                    "hashes": {
+                        "sha512": "5673272a34be88df1dc5386fc621450d3f170f5032853056adde0b796671196bf2e34d0f5f94e2e541c41bc782a4e672618a97a39f855c78e621e3c1b0313d50",
+                        "sha1": "22f5d72b1a4d69a1fa308998c9274fde00484ae3"
+                    },
+                    "required_dependencies": [],
+                    "size": 1120148,
+                    "date_published": "2025-05-24T11:48:05.624314Z"
                 }
             ]
         },
@@ -3473,6 +3866,87 @@
             ]
         },
         {
+            "pakku_id": "QvkzTz8SALErJqr0",
+            "pakku_links": [
+                "giWPYhoANsEYENZH"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "silent-gear"
+            },
+            "name": {
+                "modrinth": "Silent Gear"
+            },
+            "id": {
+                "modrinth": "73mSSnCf"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "silent-gear-1.21.1-neoforge-4.0.22.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/73mSSnCf/versions/QCj05y6w/silent-gear-1.21.1-neoforge-4.0.22.jar",
+                    "id": "QCj05y6w",
+                    "parent_id": "73mSSnCf",
+                    "hashes": {
+                        "sha512": "bee1a42cbfdf74a71055e5b95ada36f20dec62b6a9f7d0e22990a1ed242b163aa553212b2f8211a19638e1905a76b476888319cbcaf413c796346bb1efbf2425",
+                        "sha1": "c814a7d0df6dbc6baf11ad8e454b03c41b061bd7"
+                    },
+                    "required_dependencies": [
+                        "BQhuHQo4"
+                    ],
+                    "size": 2832136,
+                    "date_published": "2025-05-25T19:44:15.524388Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "giWPYhoANsEYENZH",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "silent-lib"
+            },
+            "name": {
+                "modrinth": "Silent Lib"
+            },
+            "id": {
+                "modrinth": "BQhuHQo4"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "silent-lib-1.21.1-neoforge-10.5.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/BQhuHQo4/versions/djmtrwla/silent-lib-1.21.1-neoforge-10.5.1.jar",
+                    "id": "djmtrwla",
+                    "parent_id": "BQhuHQo4",
+                    "hashes": {
+                        "sha512": "c6e2f244940eeef1e251f3bb2e8ce68f749d324848f9b4bf37454a5f5b64d3ea046ccd7b7dc53f781e0b567e9f7149afc4cc6502c3e7bb7cc8513e3cfac24c67",
+                        "sha1": "b08b639706ce8cbc426045501b7f2da59eceb14f"
+                    },
+                    "required_dependencies": [],
+                    "size": 146707,
+                    "date_published": "2025-05-25T18:39:52.668047Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "LRN0rFAir2BEV5zG",
             "type": "MOD",
             "side": "BOTH",
@@ -4244,6 +4718,44 @@
                     ],
                     "size": 432269,
                     "date_published": "2025-04-13T13:49:23.080194Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "TMpI6jwfar65ODrN",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "xaeros-world-map"
+            },
+            "name": {
+                "modrinth": "Xaero's World Map"
+            },
+            "id": {
+                "modrinth": "NcUtCpym"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "XaerosWorldMap_1.39.9_NeoForge_1.21.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/Lt2vbZZU/XaerosWorldMap_1.39.9_NeoForge_1.21.jar",
+                    "id": "Lt2vbZZU",
+                    "parent_id": "NcUtCpym",
+                    "hashes": {
+                        "sha512": "ceec5162b8d75c8883b280f1a329a7cd6f24979a5e169165b006c334de4678c3e346af6e4ec34385b2bdff2940062358986de7eca634d5763e4631511d19ebca",
+                        "sha1": "cee176ccb1dce03b92e0d78dcbbcae963f89bb4a"
+                    },
+                    "required_dependencies": [],
+                    "size": 943785,
+                    "date_published": "2025-05-17T08:41:21.194277Z"
                 }
             ]
         },
