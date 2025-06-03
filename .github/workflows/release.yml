@@ -1,4 +1,4 @@
-name: Release
+name: Release on Tag
 
 on:
   push:
@@ -56,8 +56,8 @@ jobs:
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.ref_name }}
-          name: Release ${{ github.ref_name }}
+          tag_name: v${{ steps.version.outputs.version }}
+          name: Release v${{ steps.version.outputs.version }}
           draft: false
           prerelease: false
           files: |
@@ -66,4 +66,4 @@ jobs:
 
       - name: Summary
         run: |
-          echo "Release created for version: ${{ steps.version.outputs.version }}"
+          echo "Release created for version: v${{ steps.version.outputs.version }}"
