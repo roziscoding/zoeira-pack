@@ -1,0 +1,20 @@
+#服务器配置||Server Config
+[server]
+	#启用工具保护模式（防止工具耐久过低导致损坏）||Enable tool protection mode (prevent tool durability from being too low)
+	toolProtectionEnabled = true
+	#工具耐久阈值 (如果是小于等于1.0的值则表示百分比，大于1.0表示固定值)||Tool durability threshold (if the value is less than or equal to 1.0, it represents a percentage, otherwise it represents a fixed value)
+	# Default: 0.1
+	# Range: 0.01 ~ 1000.0
+	toolDurabilityThreshold = 0.1
+	#启用饥饿度保护（防止饥饿值过低时无法挖掘）||Enable hunger protection (prevent mining when hunger is too low)
+	hungerProtectionEnabled = true
+	#饥饿度阈值 (最小值为0，最大值为20)||Hunger threshold (minimum value is 0, maximum value is 20)
+	# Default: 3.0
+	# Range: 0.0 ~ 20.0
+	hungerThreshold = 3.0
+	#启用经验修正（调整连锁挖掘获得的经验）||Enable experience multiplier (adjust the experience gained from chain mining)
+	experienceMultiplierEnabled = true
+	#经验倍率调整 (1.0为原始经验值)||Experience multiplier adjustment (1.0 is the original experience value)
+	# Default: 0.8
+	# Range: 0.1 ~ 2.0
+	experienceMultiplier = 0.8

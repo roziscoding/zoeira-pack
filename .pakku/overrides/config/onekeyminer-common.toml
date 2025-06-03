@@ -1,0 +1,38 @@
+#通用配置||Common Config
+[general]
+	#连锁操作的最大方块数||Maximum number of blocks for chain operations
+	# Default: 64
+	# Range: 1 ~ 4096
+	maxChainBlocks = 64
+	#不允许连锁挖掘的方块黑名单||Blocks that should not be chain mined
+	nonChainableBlocks = ["minecraft:stone", "minecraft:bedrock"]
+	#不允许连锁种植的种子黑名单||Seeds that should not be chain planted
+	seedBlacklist = []
+	#是否允许对角线连锁（允许对角连接的方块参与连锁）||Whether to allow diagonal chaining (allow blocks connected diagonally to participate in chain mining)
+	enableDiagonalChaining = false
+	#最大挖掘深度（防止连锁过深）||Maximum mining depth (prevent chain mining from being too deep)
+	# Default: 16
+	# Range: 1 ~ 64
+	maxMiningDepth = 16
+	#是否将连锁挖掘的掉落物传送到玩家身下||Whether to teleport the drops from chain mining to the player
+	teleportDropsToPlayer = false
+	#是否忽略工具兼容性检查||Whether to ignore tool compatibility checks
+	ignoreToolCompatibility = true
+	#是否匹配完整的方块状态而不仅仅是方块类型||Whether to match the complete block state rather than just the block type
+	matchBlockState = false
+	#创造模式是否启用连锁挖掘||Whether to enable chain mining in creative mode
+	enableInCreative = true
+	#是否需要下蹲才能触发连锁挖掘||Whether to require sneaking to trigger chain mining
+	requireSneaking = false
+	#存活模式下连锁挖掘的最大方块数||Maximum number of blocks for chain mining in survival mode
+	# Default: 64
+	# Range: 1 ~ 4096
+	maxBlocksInChain = 64
+	#创造模式下连锁挖掘的最大方块数||Maximum number of blocks for chain mining in creative mode
+	# Default: 256
+	# Range: 1 ~ 16384
+	maxBlocksInChainCreative = 256
+	#最大连锁搜索深度||Maximum chain search depth
+	# Default: 16
+	# Range: 1 ~ 64
+	maxChainDepth = 16

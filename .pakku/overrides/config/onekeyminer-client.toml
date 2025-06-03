@@ -1,0 +1,14 @@
+#一键连锁 - 客户端配置||OneKeyMiner Client Config
+[client]
+	#是否需要按住键来激活连锁模式||Whether to hold the key to activate the chain mode
+	requireKeyHold = false
+	#是否启用调试模式||Whether to enable debug mode
+	Debug = false
+	#是否显示连锁方块数量||Whether to show the number of chain blocks
+	showBlockCount = true
+	#消息显示样式 (actionbar 或 chat)||Message display style (actionbar or chat)
+	messageStyle = "actionbar"
+	#按住模式关闭时，连锁状态重置时间（秒）||Chain state reset time when hold mode is off (seconds)
+	# Default: 60
+	# Range: 1 ~ 32767
+	"frozen timer" = 60
