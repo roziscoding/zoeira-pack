@@ -2,10 +2,5 @@
     "name": "Zoeira",
     "version": "0.0.10",
     "description": "A modpack so the zoeira never ends",
-    "author": "Roz",
-    "overrides": [
-        "mods",
-        "config",
-        "resourcepacks"
-    ]
+    "author": "Roz"
 }
