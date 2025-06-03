@@ -1,0 +1,66 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "*"
+  workflow_dispatch:
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Download latest Pakku release
+        id: pakku
+        run: |
+          url=$(curl -s https://api.github.com/repos/juraj-hrivnak/Pakku/releases/latest | \
+                grep "browser_download_url.*\.jar" | \
+                cut -d '"' -f 4)
+          echo "Latest Pakku jar: $url"
+          curl -L "$url" -o pakku.jar
+
+      - name: Run Pakku export
+        run: java -jar pakku.jar export
+
+      - name: Read version from pakku.json
+        id: version
+        run: |
+          version=$(jq -r '.version' pakku.json)
+          echo "version=$version" >> $GITHUB_OUTPUT
+
+      - name: Upload modrinth artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: modrinth
+          path: build/modrinth/Zoeira-${{ steps.version.outputs.version }}.mrpack
+
+      - name: Upload serverpack artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: serverpack
+          path: build/serverpack/Zoeira-${{ steps.version.outputs.version }}.zip
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
+          draft: false
+          prerelease: false
+          files: |
+            build/modrinth/Zoeira-${{ steps.version.outputs.version }}.mrpack
+            build/serverpack/Zoeira-${{ steps.version.outputs.version }}.zip
+
+      - name: Summary
+        run: |
+          echo "Release created for version: ${{ steps.version.outputs.version }}"
