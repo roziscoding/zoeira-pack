@@ -574,7 +574,7 @@
                 "PMjIm40tM9MTh4Nn"
             ],
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "charm-of-undying"
             },
@@ -2359,7 +2359,7 @@
         {
             "pakku_id": "vuWkfOvv9o6l9P8h",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "inventory-tweaks-refoxed"
             },
@@ -4551,6 +4551,43 @@
                     ],
                     "size": 12157339,
                     "date_published": "2025-04-16T09:20:21.066780Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "BnrcXD0Yw8t05Bzn",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "tiny-coal"
+            },
+            "name": {
+                "modrinth": "Tiny Coal"
+            },
+            "id": {
+                "modrinth": "6Ezzuwck"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "tinycoal-neoforge-1.21.1-1.0.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/6Ezzuwck/versions/UpKNWvGc/tinycoal-neoforge-1.21.1-1.0.3.jar",
+                    "id": "UpKNWvGc",
+                    "parent_id": "6Ezzuwck",
+                    "hashes": {
+                        "sha512": "335f0ea35f9ed78118d8fc41e98181a8ed9c3166bdeacd999b128a2f33fa8a1c180b55cc29f64a8231b2072f5d039b5a5399b7386cc7ff416b8bd9be4ff5fb3e",
+                        "sha1": "a67a2c929df025ec1be85f5ab19f6e758eb17ba2"
+                    },
+                    "required_dependencies": [],
+                    "size": 25791,
+                    "date_published": "2024-08-08T20:01:06.793951Z"
                 }
             ]
         },

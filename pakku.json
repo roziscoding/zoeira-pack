@@ -1,14 +1,14 @@
 {
     "name": "Zoeira",
-    "version": "0.0.11",
+    "version": "0.0.12",
     "description": "A modpack so the zoeira never ends",
     "author": "Roz",
     "projects": {
-      "inventory-tweaks-refoxed": {
-        "side": "BOTH"
-      },
-      "charm-of-undying": {
-        "side": "BOTH"
-      }
+        "inventory-tweaks-refoxed": {
+            "side": "BOTH"
+        },
+        "charm-of-undying": {
+            "side": "BOTH"
+        }
     }
 }
