@@ -1971,43 +1971,6 @@
             ]
         },
         {
-            "pakku_id": "hsWM4mus25xqx2tR",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "essential"
-            },
-            "name": {
-                "modrinth": "Essential Mod"
-            },
-            "id": {
-                "modrinth": "k2ZPuTBm"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "Essential_1-3-6-2_neoforge_1-21-1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/k2ZPuTBm/versions/ZvzEtsWW/Essential_1-3-6-2_neoforge_1-21-1.jar",
-                    "id": "ZvzEtsWW",
-                    "parent_id": "k2ZPuTBm",
-                    "hashes": {
-                        "sha512": "0cf43118f0d9d84dbe66d01b7ffb6a7fcb126f4480f89fd29a3feac1432088595a1e7e3a713c7e447598a381eecf7650e3c3c7d2e92335f5c18060b509342547",
-                        "sha1": "fe70adce33826f452ca5d16799347fc61366e94a"
-                    },
-                    "required_dependencies": [],
-                    "size": 53490105,
-                    "date_published": "2025-05-13T15:34:54.417990Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "24ir2Yxvw5FORCbQ",
             "type": "MOD",
             "side": "BOTH",
