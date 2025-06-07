@@ -2836,6 +2836,49 @@
             ]
         },
         {
+            "pakku_id": "0Qj9caXiUnq5v0RW",
+            "pakku_links": [
+                "GrrlFqN4thoa90Nn"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "kubejs"
+            },
+            "name": {
+                "modrinth": "KubeJS"
+            },
+            "id": {
+                "modrinth": "umyGl7zF"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "kubejs-neoforge-2101.7.1-build.181.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/3w2ufpfQ/kubejs-neoforge-2101.7.1-build.181.jar",
+                    "id": "3w2ufpfQ",
+                    "parent_id": "umyGl7zF",
+                    "hashes": {
+                        "sha512": "25531dc40cee02012384c6cf645829db27816c5d107baa9aa118885fbd418237ff43974451a52f1671be6cd075dbf33cbeb20df5eaf33cd31421ef5f66413726",
+                        "sha1": "be525f7d4d8d71a18b07718352035b3e59e50ebd"
+                    },
+                    "required_dependencies": [
+                        "sk9knFPE"
+                    ],
+                    "size": 1913809,
+                    "date_published": "2024-10-13T22:39:51.311542Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "5cjtFtU3UTag1X0A",
             "pakku_links": [
                 "Lcn3YBtItk3toN6k"
@@ -3788,6 +3831,49 @@
                     "required_dependencies": [],
                     "size": 8320052,
                     "date_published": "2025-05-12T21:24:34.361773Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "GrrlFqN4thoa90Nn",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "rhino"
+            },
+            "name": {
+                "modrinth": "Rhino"
+            },
+            "id": {
+                "modrinth": "sk9knFPE"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "rhino-2101.2.7-build.74.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/sk9knFPE/versions/6ClRsUNJ/rhino-2101.2.7-build.74.jar",
+                    "id": "6ClRsUNJ",
+                    "parent_id": "sk9knFPE",
+                    "hashes": {
+                        "sha512": "891c755e1a55fceae6b3c321ba0e84d403ebb4a4de6058890b5ac1a5c937057230df2bcc2c1096f6c3d52337763f5f7485ceca1869c8a34e6d01e10602b9ffa8",
+                        "sha1": "db6aa291c90328611d5e202e71fdbaf1ab227dc0"
+                    },
+                    "required_dependencies": [],
+                    "size": 874323,
+                    "date_published": "2025-02-12T11:12:43.825705Z"
                 }
             ]
         },
